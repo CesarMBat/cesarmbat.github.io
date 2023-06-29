@@ -1,0 +1,9 @@
+.main-skills{
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    flex-flow: row;
+    height: 100vh;
+
+}

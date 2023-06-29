@@ -1,0 +1,28 @@
+.main-who{
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+}
+.div-sections{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.section-left h1{
+    text-align: center;
+}
+.section-right{
+    overflow: hidden;
+
+}
+.p-section{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.d-block{
+    border-radius: 1rem;
+}

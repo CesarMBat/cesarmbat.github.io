@@ -1,0 +1,29 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: 900;
+  overflow-x: hidden;
+}
+h1{
+  font-weight: 900;
+  overflow-y: hidden;
+}
+.main{
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #390089;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #390089;
+}

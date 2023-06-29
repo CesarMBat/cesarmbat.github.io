@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px inset #390089;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  top: 0;
+  z-index: 1;
+}
+.section-left {
+  justify-self: flex-start;
+}
+.section-right {
+  justify-self: end;
+  display: flex;
+}
+.ul-header {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 60vw;
+}
+.a-nav:hover {
+  transition: 1s ease;
+  color: transparent;
+}
+.a-nav {
+  text-decoration: none;
+  font-size: 1.5rem;
+  background: linear-gradient(80deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.h1-header{
+  cursor: grab;
+  overflow-y: hidden;
+}
+.h1-header{
+  cursor: grabbing;
+}

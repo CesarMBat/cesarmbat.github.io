@@ -15,7 +15,7 @@ const Who = () => {
               Eu sou César Morsoleto Batista, tenho 20 anos, e sou apaixonado
               por programação. Tenho muitos hobbies, tais como: sair com os
               amigos, jogar videogame, assistir anime, ouvir música, codar,
-              brincar com os meus doguinhos e etc. Em 2018, entrei na Escola
+              brincar com os meus doguinhos, jogar RPG e etc. Em 2018, entrei na Escola
               Técnica Estadual de São Paulo (ETESP), onde fiz o curso de
               Informática, começando a aprender sobre programação lá. Estou
               cursando Bacharelado em Tecnologia da Informação na UNIVESP.

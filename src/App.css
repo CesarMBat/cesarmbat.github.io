@@ -33,10 +33,23 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
-.h1-header{
+.h1-header {
   cursor: grab;
   overflow-y: hidden;
 }
-.h1-header{
+.h1-header {
   cursor: grabbing;
+}
+.div-lang {
+  display: flex;
+  flex-flow: column;
+  height: 8vh;
+}
+.img-Flag {
+  transition: all 0.5s ease-in-out;
+ 
+}
+.img-Flag:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }

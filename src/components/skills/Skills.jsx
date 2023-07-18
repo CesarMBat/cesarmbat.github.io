@@ -3,25 +3,28 @@ import img_skills from "../../assets/skills";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
+import { useTranslation } from 'react-i18next';
+
 
 const Skills = () => {
+  const {t} = useTranslation()
   return (
     <div>
       <main className="main-skills">
         <section className="section-left">
             <section className="section-explain">
-              <h1>Habilidades</h1>
-              <p>Citarei algumas habilidades que possuo</p>
+              <h1>{t("hab")}</h1>
+              <p>{t("pH")}</p>
             </section>
             <section className="section-skills">
               <ul>
-                <li>Fluente em Inglês</li>
-                <li>Trabalho em equipe</li>
-                <li>Habilidades em comunicação</li>
-                <li>Conhecimentos em HTML</li>
-                <li>Conhecimentos em CSS</li>
-                <li>Conhecimentos em JavaScript</li>
-                <li>Conhecimentos em React</li>
+                <li>{t("liH1")}</li>
+                <li>{t("liH2")}</li>
+                <li>{t("liH3")}</li>
+                <li>{t("liH4")}</li>
+                <li>{t("liH5")}</li>
+                <li>{t("liH6")}</li>
+                <li>{t("liH7")}</li>
               </ul>
             </section>
         </section>

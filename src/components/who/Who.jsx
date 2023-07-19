@@ -13,7 +13,7 @@ const Who = () => {
     <div>
       <main className="main-who main">
         <div className="div-sections">
-          <section className="section-left">
+          <section className="section-left-who">
             <h1>{t('quem')}</h1>
             <p className="p-section">
               {t('pWho')}

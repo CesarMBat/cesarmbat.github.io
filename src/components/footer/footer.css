@@ -1,0 +1,17 @@
+.footer {
+  display: grid;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-top: 1px inset #8e59d7;
+  width: 100vw;
+  height: 20vh;
+  grid-template-columns: 20% 50%;
+}
+.section-left-footer {
+  justify-content: left;
+}
+.hFooter {
+  font-weight: 800;
+  height: 3vh;
+  overflow-y: hidden;
+}

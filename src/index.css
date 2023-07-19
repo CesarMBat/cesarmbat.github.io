@@ -9,13 +9,7 @@ h1{
   font-weight: 900;
   overflow-y: hidden;
 }
-.main{
-  height: 100vh;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  
-}
+
 ::-webkit-scrollbar {
   width: 8px;
 }

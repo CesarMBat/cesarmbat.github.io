@@ -10,6 +10,7 @@ import { useTranslation, initReactI18next } from "react-i18next";
 import i18n from "i18next";
 import enTrans from "./en.json";
 import ptTrans from "./pt.json";
+import Footer from "./components/footer/Footer";
 
 i18n.use(initReactI18next).init({
   lng: "pt", // Defina o idioma padrão aqui
@@ -111,6 +112,8 @@ function App() {
       <div ref={ref_Proje} id="proje">
         <Projects />
       </div>
+      <div style={{height: '20rem'}}></div>
+        <Footer />
     </>
   );
 }

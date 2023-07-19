@@ -14,10 +14,18 @@ h2{
     margin-bottom: 2vh;
     display: flex;
     padding: 2rem;
+    margin: 1rem;
     align-items: center;
     width: 40vw;
+    height: 30vh;
 }
 .main-proj{
+    height: 110vh;
+    justify-content: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.section-proj{
     height: 80vh;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -27,4 +35,5 @@ h2{
 }
 .div-2 p{
     width: 20vw;
+    
 }

@@ -1,14 +1,24 @@
-.section-obj{
-    width: 50vw;
-    font-size: 1.5rem;
+.section-obj {
+  width: 50vw;
+  font-size: 1.5rem;
+}
+.section-obj h1 {
+  text-align: center;
+}
+.main-obj {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
 
+@media (max-width: 600px){
+    .main-obj{
+        height: 150vh;
+
+    }
+    .section-obj{
+        width: 90vw;
+        text-align: center;
+    }
 }
-.section-obj h1{
-    text-align: center;
-}
-.main-obj{
-    height: 100vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-  }

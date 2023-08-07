@@ -37,3 +37,20 @@ h2{
     width: 20vw;
     
 }
+@media screen{
+    .main-proj{
+        height: 180vh;
+    }
+    .section-proj{
+        display: block;
+        height: 180vh;
+    }
+    .div-project{
+        width: 90vw;
+        display: block;
+        height: 40vh;
+    }
+    .div-2 p{
+        width: auto;
+    }
+}

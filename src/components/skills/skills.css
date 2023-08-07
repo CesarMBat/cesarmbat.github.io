@@ -7,3 +7,12 @@
     height: 100vh;
 
 }
+@media (max-width: 600px){
+    .main-skills{
+        display: block;
+        text-align: center;
+    }
+    .svg{
+        height: 200px;
+    }
+}

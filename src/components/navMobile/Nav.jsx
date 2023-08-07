@@ -12,6 +12,7 @@ const Nav = styled.nav`
   .logo {
     padding: 15px 0;
     overflow-y: hidden;
+    font-size: 1.5rem;
   }
 `;
 const Navbar = ({onNav}) => {

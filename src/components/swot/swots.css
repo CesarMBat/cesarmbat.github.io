@@ -49,3 +49,16 @@
     width: 40vw;
 
 }
+@media (max-width: 600px){
+    .main-swot{
+        height: 170vh;
+    }
+    .section-swot{
+        display: block;
+        height: 170vh;
+    }
+    .grid-swot1, .grid-swot2, .grid-swot3, .grid-swot4 {
+        margin: 0;
+        width: 90vw;
+    }
+}

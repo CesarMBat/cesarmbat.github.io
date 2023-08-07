@@ -31,16 +31,16 @@ const Skills = () => {
         <section className="section-right">
             <Carousel controls={false} indicators={false}>
                 <Carousel.Item interval={1500}>
-                    <img src={img_skills.a} className="d-block"/>
+                    <img src={img_skills.a} className="d-block svg"/>
                 </Carousel.Item>
                 <Carousel.Item interval={1500}>
-                    <img src={img_skills.b} className="d-block"/>
+                    <img src={img_skills.b} className="d-block svg"/>
                 </Carousel.Item>
                 <Carousel.Item interval={1500}>
-                    <img src={img_skills.c} className="d-block"/>
+                    <img src={img_skills.c} className="d-block svg"/>
                 </Carousel.Item>
                 <Carousel.Item interval={1500}>
-                    <img src={img_skills.d} className="d-block"/>
+                    <img src={img_skills.d} className="d-block svg"/>
                 </Carousel.Item>
             </Carousel>
         </section>

@@ -9,7 +9,9 @@ h1{
   font-weight: 900;
   overflow-y: hidden;
 }
-
+p{
+  font-weight: 900;
+}
 ::-webkit-scrollbar {
   width: 8px;
 }

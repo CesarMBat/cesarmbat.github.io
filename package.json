@@ -17,7 +17,10 @@
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^13.0.2",
-    "react-responsive-carousel": "^3.2.23"
+    "react-media": "^1.10.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.14.2",
+    "styled-components": "^6.0.7"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

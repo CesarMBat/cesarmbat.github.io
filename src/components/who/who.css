@@ -39,6 +39,8 @@
     }
     .main-who{
         height: 120vh;
+        align-items: center;
+        justify-content: center;
     }
     .div-sections{
         display: flex;
@@ -46,6 +48,15 @@
         text-align: center;
         padding: 0;
     }
+    .section-left-who{
+        border: 0px;
+        padding: 1rem;
+    }
+    .p-section{
+        font-size: 1.2rem;
+        text-align: center;
+    }
     .d-block{
+        height: 50vh;
     }
 }

@@ -10,7 +10,7 @@ const Footer = () => {
             <section className='section-left-footer'>
                 <h5 className='hFooter'>César Morsoleto Batista</h5>
                 <p>{t("email")}</p>
-                <p>{t("phone")}</p>
+                <p>{t("phone")} <a href="https://api.whatsapp.com/send/?phone=961615522&text&type=phone_number&app_absent=0" target='_blank' noopener="true" noreferrer="true"> +55 (11) 96161-5522</a></p>
             </section>
         </footer>
     </div>

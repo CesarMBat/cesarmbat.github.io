@@ -53,3 +53,8 @@
   cursor: pointer;
   transform: scale(1.05);
 }
+@media (max-width: 600px) {
+  .div-spc{
+    height: 20rem
+  }
+}

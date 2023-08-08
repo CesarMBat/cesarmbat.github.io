@@ -39,16 +39,16 @@ h2{
 }
 @media (max-width: 600px){
     .main-proj{
-        height: 180vh;
+        height: 200vh;
     }
     .section-proj{
         display: block;
-        height: 180vh;
+        height: 200vh;
     }
     .div-project{
         width: 90vw;
         display: block;
-        height: 40vh;
+        height: 350px;
     }
     .div-2 p{
         width: auto;

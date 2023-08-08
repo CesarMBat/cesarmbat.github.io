@@ -15,6 +15,15 @@
   height: 3vh;
   overflow-y: hidden;
 }
+.a-phone{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+.a-phone:hover{
+  color: #260b4d;
+  text-decoration: underline;
+}
 @media screen {
   .footer {
     padding: 2rem;

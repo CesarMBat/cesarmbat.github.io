@@ -15,4 +15,7 @@
     .svg{
         height: 200px;
     }
+    .section-skills ul {
+        padding: 0;
+    }
 }

@@ -37,7 +37,7 @@ h2{
     width: 20vw;
     
 }
-@media screen{
+@media (max-width: 600px){
     .main-proj{
         height: 180vh;
     }
